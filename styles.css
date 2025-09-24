@@ -1,0 +1,60 @@
+/* Tipografía global */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Contenedor centrado */
+body > * {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #00796b;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.1em;
+}
+
+/* Estilo del div */
+div {
+    background-color: #ffffff;
+    border-left: 6px solid #00796b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 40px;
+}
+
+/* Título dentro del div */
+div h2 {
+    color: #00796b;
+    margin-top: 0;
+}
+
+/* Responsive en pantallas pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p, div h2 {
+        font-size: 1em;
+    }
+
+    div {
+        padding: 15px;
+    }
+}
